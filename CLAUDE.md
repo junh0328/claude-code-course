@@ -6,6 +6,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Next.js 15 application using the App Router architecture, bootstrapped with `create-next-app`. The project uses modern tooling including Turbopack for faster builds, Biome for linting and formatting, and Tailwind CSS v4 for styling.
 
+## IMPORTANT: Documentation-First Approach
+
+**CRITICAL**: Before generating any code, ALWAYS consult the relevant documentation files in the `/docs` directory first. These files contain project-specific standards, patterns, and guidelines that MUST be followed.
+
+### Documentation Files
+
+- **UI Components** (`/docs/ui.md`): Standards for UI components, styling patterns, and component guidelines
+
+### Workflow for Code Generation
+
+1. **Identify** the type of code you need to generate (UI component, API route, utility, etc.)
+2. **Consult** the relevant documentation file in `/docs` for that category
+3. **Follow** the patterns, standards, and guidelines specified in the documentation
+4. **Generate** code that adheres to the documented conventions
+5. **Verify** the generated code matches the documentation requirements
+
+This ensures consistency across the codebase and adherence to project-specific patterns and best practices.
+
 ## Development Commands
 
 ### Start Development Server
